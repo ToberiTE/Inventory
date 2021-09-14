@@ -1,23 +1,24 @@
-#ASP.NET Core API
+# ASP.NET Core API
 
-Customer facing page for registering to receive updates concerning maintenance or downtime of several provided services by "Company X".
+Datamodels are currently set up in a "product" fashion, to only accept particular server-validated data.
 
-Fully functional and responsive client-side validation in required fields along with additional server-side validation for added security.
+Can easily be modified by altering the datamodels.
 
-All client-side data is transferred with AJAX to a fully asynchronous backend.
-#
-<b>Fullstack application</b>
+#### Available endpoints:
+* **GET api/products** -- Returns all products.
+* **GET api/products/{id}** -- Returns specific product with supplied id.
+* **POST api/products** -- Add new product.
+* **PUT api/products/{id}** -- Update entire or part of product entry with supplied id.
+* **PATCH api/products/{id}** -- Updates part of the product entry with supplied id.
+* **DELETE api/products/{id}** -- Remove product with supplied id
 
-<b>Frontend</b> - HTML, CSS, Bootstrap, JavaScript & JQuery.
-
-<b>Backend</b> - ASP.NET MVC, MSSQL, Entity Framework.
-#
-(Note: Page language is swedish).
-
-Additional screenshots in attached PDF.
 #
 
 Database:
+![DB](https://user-images.githubusercontent.com/65503426/133178596-8976bbf8-030a-4f9c-98d5-3789e12770c8.PNG)
 
 
-Returned data from calling all products endpoint:
+Returned data from calling "api/products" endpoint:
+![JSONBROWSER](https://user-images.githubusercontent.com/65503426/133178604-d141896d-268e-4f13-bc19-423cbd5c019f.PNG)
+
+
