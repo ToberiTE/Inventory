@@ -14,7 +14,7 @@ Can easily be modified by altering the datamodels.
 
 #
 
-Database:
+All products in database:
 ![DB](https://user-images.githubusercontent.com/65503426/133178596-8976bbf8-030a-4f9c-98d5-3789e12770c8.PNG)
 
 
