@@ -13,12 +13,3 @@ Can easily be modified by altering the datamodels.
 * **DELETE api/products/{id}** -- Remove product with supplied id
 
 #
-
-All products in database:
-![DB](https://user-images.githubusercontent.com/65503426/133178596-8976bbf8-030a-4f9c-98d5-3789e12770c8.PNG)
-
-
-Returned data from calling "api/products" endpoint:
-![JSONBROWSER](https://user-images.githubusercontent.com/65503426/133178604-d141896d-268e-4f13-bc19-423cbd5c019f.PNG)
-
-
